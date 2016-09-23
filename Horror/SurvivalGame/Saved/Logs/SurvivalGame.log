@@ -1,0 +1,1273 @@
+﻿Log file open, 08/03/16 15:17:45
+LogInit:Display: Running engine for game: SurvivalGame
+LogInit: Version: 4.7.1-2462028+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Feb 26 2015 07:49:00
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: F:/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2016.08.03-19.17.45:645][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2016.08.03-19.17.45:718][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.08.03-19.17.45:753][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.08.03-19.17.45:782][  0]LogInit: Object subsystem initialized
+[2016.08.03-19.17.45:795][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.03-19.17.45:795][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.03-19.17.45:808][  0]LogInit: Computer: ZEESHAN-PC
+[2016.08.03-19.17.45:808][  0]LogInit: User: fullsail
+[2016.08.03-19.17.45:808][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.08.03-19.17.45:808][  0]LogInit: High frequency timer resolution =2.338535 MHz
+[2016.08.03-19.17.45:809][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx) Virtual=8192.0GB
+[2016.08.03-19.17.45:809][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.03-19.17.45:809][  0]LogMemory: Process Physical Memory: 47.84 MB used, 47.84 MB peak
+[2016.08.03-19.17.45:809][  0]LogMemory: Process Virtual Memory: 26.61 MB used, 26.61 MB peak
+[2016.08.03-19.17.45:809][  0]LogMemory: Physical Memory: 5616.79 MB used, 12219.55 MB total
+[2016.08.03-19.17.45:809][  0]LogMemory: Virtual Memory: 278.63 MB used, 8388608.00 MB total
+[2016.08.03-19.17.45:909][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD FirePro M4000 (Feature Level 11_0)
+[2016.08.03-19.17.45:910][  0]LogD3D11RHI: Adapter has 999MB of dedicated video memory, 0MB of dedicated system memory, and 5853MB of shared system memory, 1 output[s]
+[2016.08.03-19.17.45:910][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.08.03-19.17.45:922][  0]LogRHI: Texture pool is 699 MB (70% of 999 MB)
+[2016.08.03-19.17.45:956][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.08.03-19.17.46:042][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.08.03-19.17.46:418][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.08.03-19.17.52:055][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.03-19.17.52:972][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.03-19.17.53:089][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.03-19.17.53:169][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/fullsail/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.08.03-19.17.53:169][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/fullsail/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2016.08.03-19.17.53:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/Horror/SurvivalGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.03-19.17.53:169][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.03-19.17.53:536][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.03-19.17.53:550][  0]LogDerivedDataCache: Using Local data cache path C:/Users/fullsail/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.03-19.17.54:386][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.03-19.17.54:386][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.03-19.17.55:204][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.03-19.17.55:390][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2016.08.03-19.17.57:522][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.03-19.17.57:933][  0]SourceControl: Info Source control is disabled
+[2016.08.03-19.17.57:934][  0]SourceControl: Info Source control is disabled
+[2016.08.03-19.17.57:934][  0]SourceControl: Info Source control is disabled
+[2016.08.03-19.17.57:934][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2016.08.03-19.17.57:934][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2016.08.03-19.17.57:955][  0]SourceControl: Info Source control is disabled
+[2016.08.03-19.17.58:412][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2016.08.03-19.17.58:412][  0]LogUObjectAllocator: 5136432 out of 0 bytes used by permanent object pool.
+[2016.08.03-19.17.58:617][  0]LogEngine: Initializing Engine...
+[2016.08.03-19.18.01:029][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-19.18.01:078][  0]LogInit: FAudioDevice initialized.
+[2016.08.03-19.18.01:173][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.03-19.18.01:223][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/fullsail/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.08.03-19.18.01:234][  0]LogInit: Texture streaming: Enabled
+[2016.08.03-19.18.01:479][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.08.03-19.18.01:479][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.1-2462028+++depot+UE4-Releases+4.7
+[2016.08.03-19.18.01:480][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.1-2462028+++depot+UE4-Releases+4.7
+[2016.08.03-19.18.01:480][  0]LogAnalytics: SetUserId 92adf58b4b8a9e836f16ca8dc7a75a1d|d7f2dab0a2eb4ac494335eee49d95ac6|72d840d0-e719-4061-8cf8-2b3fb0c19d3e
+[2016.08.03-19.18.01:480][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2016.08.03-19.18.01:541][  0]LogInit: Transaction tracking system initialized
+[2016.08.03-19.18.01:948][  0]BlueprintLog: New page: Editor Load
+[2016.08.03-19.18.02:016][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2016.08.03-19.18.02:016][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.08.03-19.18.03:131][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.03-19.18.03:816][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.03-19.18.12:081][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2016.08.03-19.18.12:081][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2016.08.03-19.18.12:089][  0]LogConsoleResponse:Display: 
+[2016.08.03-19.18.12:214][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.03-19.18.12:358][  0]SourceControl: Info Source control is disabled
+[2016.08.03-19.18.12:359][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2016.08.03-19.18.12:359][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2016.08.03-19.18.12:359][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 F:/Epic Games/4.7/FeaturePacks/StarterContent.upack)
+[2016.08.03-19.18.12:857][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.08.03-19.18.12:861][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2016.08.03-19.18.12:864][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2016.08.03-19.18.12:867][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
+[2016.08.03-19.18.12:873][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
+[2016.08.03-19.18.12:876][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2016.08.03-19.18.12:879][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2016.08.03-19.18.12:882][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2016.08.03-19.18.12:885][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2016.08.03-19.18.12:888][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2016.08.03-19.18.12:891][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2016.08.03-19.18.12:895][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2016.08.03-19.18.12:898][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2016.08.03-19.18.12:901][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Collapse01.uasset
+[2016.08.03-19.18.12:904][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Collapse02.uasset
+[2016.08.03-19.18.12:907][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2016.08.03-19.18.12:910][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Explosion01.uasset
+[2016.08.03-19.18.12:914][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Explosion02.uasset
+[2016.08.03-19.18.12:918][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2016.08.03-19.18.12:920][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Fire01.uasset
+[2016.08.03-19.18.12:924][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2016.08.03-19.18.12:927][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2016.08.03-19.18.12:931][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2016.08.03-19.18.12:934][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Light01.uasset
+[2016.08.03-19.18.12:938][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Light01_Cue.uasset
+[2016.08.03-19.18.12:941][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Light02.uasset
+[2016.08.03-19.18.12:945][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Light02_Cue.uasset
+[2016.08.03-19.18.12:949][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Smoke01.uasset
+[2016.08.03-19.18.12:952][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2016.08.03-19.18.12:955][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2016.08.03-19.18.12:958][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2016.08.03-19.18.12:962][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Starter_Music01.uasset
+[2016.08.03-19.18.12:970][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2016.08.03-19.18.12:973][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2016.08.03-19.18.12:977][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2016.08.03-19.18.12:982][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Steam01.uasset
+[2016.08.03-19.18.12:985][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2016.08.03-19.18.12:988][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2016.08.03-19.18.12:991][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2016.08.03-19.18.12:994][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2016.08.03-19.18.12:997][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2016.08.03-19.18.13:001][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2016.08.03-19.18.13:004][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2016.08.03-19.18.13:007][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2016.08.03-19.18.13:011][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2016.08.03-19.18.13:014][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2016.08.03-19.18.13:017][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2016.08.03-19.18.13:021][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2016.08.03-19.18.13:024][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2016.08.03-19.18.13:028][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2016.08.03-19.18.13:031][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2016.08.03-19.18.13:034][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2016.08.03-19.18.13:037][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2016.08.03-19.18.13:040][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2016.08.03-19.18.13:086][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2016.08.03-19.18.13:089][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.08.03-19.18.13:094][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Maps/StarterMap.umap
+[2016.08.03-19.18.13:106][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2016.08.03-19.18.13:110][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2016.08.03-19.18.13:113][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2016.08.03-19.18.13:117][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2016.08.03-19.18.13:120][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2016.08.03-19.18.13:123][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2016.08.03-19.18.13:126][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2016.08.03-19.18.13:129][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2016.08.03-19.18.13:133][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2016.08.03-19.18.13:136][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2016.08.03-19.18.13:139][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2016.08.03-19.18.13:142][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2016.08.03-19.18.13:145][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2016.08.03-19.18.13:149][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2016.08.03-19.18.13:151][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2016.08.03-19.18.13:154][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2016.08.03-19.18.13:158][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2016.08.03-19.18.13:162][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Glass.uasset
+[2016.08.03-19.18.13:165][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2016.08.03-19.18.13:167][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2016.08.03-19.18.13:170][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2016.08.03-19.18.13:174][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2016.08.03-19.18.13:177][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2016.08.03-19.18.13:180][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2016.08.03-19.18.13:183][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2016.08.03-19.18.13:186][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2016.08.03-19.18.13:189][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2016.08.03-19.18.13:192][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2016.08.03-19.18.13:195][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2016.08.03-19.18.13:198][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2016.08.03-19.18.13:201][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2016.08.03-19.18.13:204][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2016.08.03-19.18.13:206][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2016.08.03-19.18.13:210][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2016.08.03-19.18.13:213][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2016.08.03-19.18.13:216][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2016.08.03-19.18.13:219][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2016.08.03-19.18.13:222][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2016.08.03-19.18.13:225][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2016.08.03-19.18.13:228][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2016.08.03-19.18.13:231][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2016.08.03-19.18.13:234][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2016.08.03-19.18.13:237][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2016.08.03-19.18.13:240][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2016.08.03-19.18.13:243][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2016.08.03-19.18.13:246][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2016.08.03-19.18.13:250][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2016.08.03-19.18.13:253][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2016.08.03-19.18.13:256][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2016.08.03-19.18.13:259][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2016.08.03-19.18.13:262][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2016.08.03-19.18.13:266][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2016.08.03-19.18.13:269][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2016.08.03-19.18.13:272][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2016.08.03-19.18.13:276][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/P_Explosion.uasset
+[2016.08.03-19.18.13:279][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/P_Fire.uasset
+[2016.08.03-19.18.13:283][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/P_Smoke.uasset
+[2016.08.03-19.18.13:286][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/P_Sparks.uasset
+[2016.08.03-19.18.13:289][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2016.08.03-19.18.13:292][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2016.08.03-19.18.13:295][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2016.08.03-19.18.13:298][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_Door.uasset
+[2016.08.03-19.18.13:302][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2016.08.03-19.18.13:305][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2016.08.03-19.18.13:308][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2016.08.03-19.18.13:311][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2016.08.03-19.18.13:314][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2016.08.03-19.18.13:317][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2016.08.03-19.18.13:320][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2016.08.03-19.18.13:323][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2016.08.03-19.18.13:326][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2016.08.03-19.18.13:329][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/MaterialSphere.uasset
+[2016.08.03-19.18.13:332][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_Bush.uasset
+[2016.08.03-19.18.13:335][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_Chair.uasset
+[2016.08.03-19.18.13:339][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2016.08.03-19.18.13:342][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_Couch.uasset
+[2016.08.03-19.18.13:345][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_Door.uasset
+[2016.08.03-19.18.13:349][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2016.08.03-19.18.13:352][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2016.08.03-19.18.13:355][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2016.08.03-19.18.13:358][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2016.08.03-19.18.13:361][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2016.08.03-19.18.13:366][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2016.08.03-19.18.13:369][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2016.08.03-19.18.13:372][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_Rock.uasset
+[2016.08.03-19.18.13:376][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_Shelf.uasset
+[2016.08.03-19.18.13:379][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_Stairs.uasset
+[2016.08.03-19.18.13:382][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_Statue.uasset
+[2016.08.03-19.18.13:385][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_TableRound.uasset
+[2016.08.03-19.18.13:388][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2016.08.03-19.18.13:391][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2016.08.03-19.18.13:395][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2016.08.03-19.18.13:399][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2016.08.03-19.18.13:402][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2016.08.03-19.18.13:405][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2016.08.03-19.18.13:408][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2016.08.03-19.18.13:412][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2016.08.03-19.18.13:415][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2016.08.03-19.18.13:418][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2016.08.03-19.18.13:421][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2016.08.03-19.18.13:424][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2016.08.03-19.18.13:427][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2016.08.03-19.18.13:430][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2016.08.03-19.18.13:433][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2016.08.03-19.18.13:437][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2016.08.03-19.18.13:440][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2016.08.03-19.18.13:443][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2016.08.03-19.18.13:446][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2016.08.03-19.18.13:449][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2016.08.03-19.18.13:452][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/Metal_Tile_2.uasset
+[2016.08.03-19.18.13:455][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
+[2016.08.03-19.18.13:458][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/Sky54a2048.uasset
+[2016.08.03-19.18.13:460][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/Sky54a2048LDR.uasset
+[2016.08.03-19.18.13:463][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_ArmorMetal01.uasset
+[2016.08.03-19.18.13:465][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
+[2016.08.03-19.18.13:468][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Bark02_D.uasset
+[2016.08.03-19.18.13:470][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Bark02_N.uasset
+[2016.08.03-19.18.13:473][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
+[2016.08.03-19.18.13:476][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
+[2016.08.03-19.18.13:478][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2016.08.03-19.18.13:486][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2016.08.03-19.18.13:495][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2016.08.03-19.18.13:503][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2016.08.03-19.18.13:510][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2016.08.03-19.18.13:518][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2016.08.03-19.18.13:528][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2016.08.03-19.18.13:538][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2016.08.03-19.18.13:546][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2016.08.03-19.18.13:557][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2016.08.03-19.18.13:566][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2016.08.03-19.18.13:574][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2016.08.03-19.18.13:581][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2016.08.03-19.18.13:590][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Burst_M.uasset
+[2016.08.03-19.18.13:593][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Bush_D.uasset
+[2016.08.03-19.18.13:597][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Bush_N.uasset
+[2016.08.03-19.18.13:601][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2016.08.03-19.18.13:604][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2016.08.03-19.18.13:608][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Chair_M.uasset
+[2016.08.03-19.18.13:612][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Chair_N.uasset
+[2016.08.03-19.18.13:616][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2016.08.03-19.18.13:619][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Cliff_M.uasset
+[2016.08.03-19.18.13:622][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Cliff_N.uasset
+[2016.08.03-19.18.13:625][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Cobble_01_H.uasset
+[2016.08.03-19.18.13:627][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
+[2016.08.03-19.18.13:631][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
+[2016.08.03-19.18.13:633][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
+[2016.08.03-19.18.13:636][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
+[2016.08.03-19.18.13:638][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
+[2016.08.03-19.18.13:641][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2016.08.03-19.18.13:651][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2016.08.03-19.18.13:655][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2016.08.03-19.18.13:666][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2016.08.03-19.18.13:671][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2016.08.03-19.18.13:677][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2016.08.03-19.18.13:685][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2016.08.03-19.18.13:692][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2016.08.03-19.18.13:701][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete01_D.uasset
+[2016.08.03-19.18.13:704][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete01_N.uasset
+[2016.08.03-19.18.13:706][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_01_D.uasset
+[2016.08.03-19.18.13:709][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_01_N.uasset
+[2016.08.03-19.18.13:712][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_D.uasset
+[2016.08.03-19.18.13:714][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
+[2016.08.03-19.18.13:716][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
+[2016.08.03-19.18.13:719][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2016.08.03-19.18.13:728][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_N.uasset
+[2016.08.03-19.18.13:731][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2016.08.03-19.18.13:739][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2016.08.03-19.18.13:746][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2016.08.03-19.18.13:757][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2016.08.03-19.18.13:765][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2016.08.03-19.18.13:772][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2016.08.03-19.18.13:779][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2016.08.03-19.18.13:786][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2016.08.03-19.18.13:790][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
+[2016.08.03-19.18.13:792][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
+[2016.08.03-19.18.13:795][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
+[2016.08.03-19.18.13:797][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
+[2016.08.03-19.18.13:800][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
+[2016.08.03-19.18.13:803][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2016.08.03-19.18.13:808][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Dirt_D.uasset
+[2016.08.03-19.18.13:811][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Dirt_N.uasset
+[2016.08.03-19.18.13:813][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Door_M.uasset
+[2016.08.03-19.18.13:817][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Door_N.uasset
+[2016.08.03-19.18.13:821][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2016.08.03-19.18.13:824][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2016.08.03-19.18.13:829][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2016.08.03-19.18.13:832][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2016.08.03-19.18.13:836][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Frame_M.uasset
+[2016.08.03-19.18.13:839][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Frame_N.uasset
+[2016.08.03-19.18.13:843][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
+[2016.08.03-19.18.13:846][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
+[2016.08.03-19.18.13:848][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
+[2016.08.03-19.18.13:851][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
+[2016.08.03-19.18.13:854][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
+[2016.08.03-19.18.13:857][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
+[2016.08.03-19.18.13:860][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
+[2016.08.03-19.18.13:862][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
+[2016.08.03-19.18.13:865][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2016.08.03-19.18.13:868][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Gravel_D.uasset
+[2016.08.03-19.18.13:870][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Gravel_N.uasset
+[2016.08.03-19.18.13:873][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_01_D.uasset
+[2016.08.03-19.18.13:875][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_01_N.uasset
+[2016.08.03-19.18.13:878][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_02_D.uasset
+[2016.08.03-19.18.13:881][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_02_N.uasset
+[2016.08.03-19.18.13:883][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
+[2016.08.03-19.18.13:886][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
+[2016.08.03-19.18.13:888][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
+[2016.08.03-19.18.13:891][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2016.08.03-19.18.13:901][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2016.08.03-19.18.13:933][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2016.08.03-19.18.13:943][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2016.08.03-19.18.13:951][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2016.08.03-19.18.13:962][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2016.08.03-19.18.13:970][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
+[2016.08.03-19.18.13:973][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2016.08.03-19.18.13:976][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2016.08.03-19.18.13:981][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2016.08.03-19.18.13:990][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2016.08.03-19.18.13:999][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2016.08.03-19.18.14:008][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
+[2016.08.03-19.18.14:010][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
+[2016.08.03-19.18.14:013][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2016.08.03-19.18.14:022][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2016.08.03-19.18.14:027][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
+[2016.08.03-19.18.14:030][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
+[2016.08.03-19.18.14:033][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
+[2016.08.03-19.18.14:036][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
+[2016.08.03-19.18.14:039][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
+[2016.08.03-19.18.14:041][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
+[2016.08.03-19.18.14:044][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
+[2016.08.03-19.18.14:046][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
+[2016.08.03-19.18.14:049][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2016.08.03-19.18.14:058][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2016.08.03-19.18.14:065][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
+[2016.08.03-19.18.14:068][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
+[2016.08.03-19.18.14:071][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2016.08.03-19.18.14:077][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2016.08.03-19.18.14:083][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
+[2016.08.03-19.18.14:086][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
+[2016.08.03-19.18.14:088][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_PaintedMetal01.uasset
+[2016.08.03-19.18.14:091][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
+[2016.08.03-19.18.14:094][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
+[2016.08.03-19.18.14:096][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
+[2016.08.03-19.18.14:099][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2016.08.03-19.18.14:107][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_01_D.uasset
+[2016.08.03-19.18.14:110][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_01_N.uasset
+[2016.08.03-19.18.14:113][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_03_D.uasset
+[2016.08.03-19.18.14:116][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_03_N.uasset
+[2016.08.03-19.18.14:119][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_05_D.uasset
+[2016.08.03-19.18.14:130][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_05_N.uasset
+[2016.08.03-19.18.14:133][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_06_D.uasset
+[2016.08.03-19.18.14:136][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_06_N.uasset
+[2016.08.03-19.18.14:138][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_07_D.uasset
+[2016.08.03-19.18.14:141][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_07_N.uasset
+[2016.08.03-19.18.14:144][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_07b_D.uasset
+[2016.08.03-19.18.14:147][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_08_D.uasset
+[2016.08.03-19.18.14:149][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_08_N.uasset
+[2016.08.03-19.18.14:152][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_09_D.uasset
+[2016.08.03-19.18.14:154][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_10_D.uasset
+[2016.08.03-19.18.14:157][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_10_N.uasset
+[2016.08.03-19.18.14:159][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_11b_D.uasset
+[2016.08.03-19.18.14:174][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2016.08.03-19.18.14:183][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2016.08.03-19.18.14:193][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
+[2016.08.03-19.18.14:196][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
+[2016.08.03-19.18.14:198][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
+[2016.08.03-19.18.14:201][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2016.08.03-19.18.14:207][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2016.08.03-19.18.14:216][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2016.08.03-19.18.14:225][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2016.08.03-19.18.14:237][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2016.08.03-19.18.14:246][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2016.08.03-19.18.14:255][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2016.08.03-19.18.14:260][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2016.08.03-19.18.14:267][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Rocky_01_N.uasset
+[2016.08.03-19.18.14:270][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2016.08.03-19.18.14:274][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2016.08.03-19.18.14:279][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2016.08.03-19.18.14:282][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
+[2016.08.03-19.18.14:285][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Sky_Stars.uasset
+[2016.08.03-19.18.14:288][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2016.08.03-19.18.14:293][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2016.08.03-19.18.14:296][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2016.08.03-19.18.14:300][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Statue_M.uasset
+[2016.08.03-19.18.14:303][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Statue_N.uasset
+[2016.08.03-19.18.14:307][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
+[2016.08.03-19.18.14:309][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
+[2016.08.03-19.18.14:312][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2016.08.03-19.18.14:316][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2016.08.03-19.18.14:320][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2016.08.03-19.18.14:323][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2016.08.03-19.18.14:326][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2016.08.03-19.18.14:330][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2016.08.03-19.18.14:333][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2016.08.03-19.18.14:337][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2016.08.03-19.18.14:342][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
+[2016.08.03-19.18.14:449][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
+[2016.08.03-19.18.14:452][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
+[2016.08.03-19.18.14:454][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
+[2016.08.03-19.18.14:457][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Water_M.uasset
+[2016.08.03-19.18.14:461][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Water_N.uasset
+[2016.08.03-19.18.14:466][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
+[2016.08.03-19.18.14:469][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
+[2016.08.03-19.18.14:472][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_a_d.uasset
+[2016.08.03-19.18.14:475][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_A_N.uasset
+[2016.08.03-19.18.14:478][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_A_S.uasset
+[2016.08.03-19.18.14:481][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2016.08.03-19.18.14:487][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2016.08.03-19.18.14:493][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2016.08.03-19.18.14:498][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2016.08.03-19.18.14:506][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2016.08.03-19.18.14:514][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2016.08.03-19.18.14:523][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2016.08.03-19.18.14:529][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2016.08.03-19.18.14:536][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> ../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2016.08.03-19.18.14:542][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
+[2016.08.03-19.18.14:740][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.08.03-19.18.14:837][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2016.08.03-19.18.15:187][  0]LogSavePackage: Save=344.812042ms
+[2016.08.03-19.18.15:187][  0]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/Floor_400x40032101141429BC46E42AA7D99855A3C65.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.08.03-19.18.15:189][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.08.03-19.18.15:192][  0]Cmd: MAP LOAD FILE="../../../../../Projects/Horror/SurvivalGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.03-19.18.15:193][  0]LightingResults: New page: Lighting Build
+[2016.08.03-19.18.15:205][  0]MapCheck: New page: Map Check
+[2016.08.03-19.18.15:205][  0]LightingResults: New page: Lighting Build
+[2016.08.03-19.18.15:214][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014222520
+[2016.08.03-19.18.15:221][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.03-19.18.17:660][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.03-19.18.17:660][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.03-19.18.17:661][  0]Cmd: MAP CHECKDEP
+[2016.08.03-19.18.17:661][  0]MapCheck: New page: ThirdPersonExampleMap - Aug 3, 2016, 11:18:17 AM
+[2016.08.03-19.18.17:735][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.587ms to complete.
+[2016.08.03-19.18.17:735][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.543
+[2016.08.03-19.18.17:858][  0]LogCollectionManager: Loaded 0 collections in 0.001492 seconds
+[2016.08.03-19.18.17:866][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 1696 classes and 261 folders.
+[2016.08.03-19.18.17:896][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2016.08.03-19.18.17:944][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.03-19.18.17:945][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2016.08.03-19.18.17:977][  0]LogLoad: Full Startup: 35.19 seconds (BP compile: 0.49 seconds)
+[2016.08.03-19.18.19:484][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2016.08.03-19.18.21:122][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x568 (Frame:3).
+[2016.08.03-19.18.25:298][ 12]LogAssetRegistry: Asset discovery search completed in 23.2914 seconds
+[2016.08.03-19.21.01:420][546]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.08.03-19.21.01:420][546]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 3, 2016, 11:21:01 AM)
+[2016.08.03-19.21.01:461][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039974s)
+[2016.08.03-19.21.01:462][546]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2016.08.03-19.21.01:462][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.041552s)
+[2016.08.03-19.21.01:527][546]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-19.21.01:532][546]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.03-19.21.01:546][546]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.08.03-15.21.01
+[2016.08.03-19.21.01:548][546]LogWorld: Bringing up level for play took: 0.014997
+[2016.08.03-19.21.01:552][546]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.844
+[2016.08.03-19.21.13:273][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E862A20
+[2016.08.03-19.21.16:195][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
+[2016.08.03-19.23.47:892][189]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2016.08.03-19.24.09:181][808]LogRenderer:Warning: Reallocating scene render targets to support 1208x872 (Frame:1449).
+[2016.08.03-19.24.14:908][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-19.28.43:934][864]LogSavePackage: Save=7075.427734ms
+[2016.08.03-19.28.43:934][864]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonExampleMap_Auto12C0F3DA7473EC5603F44D5912DD5BA8B.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2016.08.03-19.28.43:945][864]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 7.580
+[2016.08.03-19.28.43:945][864]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 7.580
+[2016.08.03-19.28.43:984][864]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2016.08.03-19.28.44:034][864]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2016.08.03-19.28.44:034][864]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2016.08.03-19.28.45:317][864]LogSavePackage: Save=1269.093628ms
+[2016.08.03-19.28.45:319][864]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonCharacter_Auto1433F28CE4156F790CD85BC9415B3DED9.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2016.08.03-19.28.45:328][864]LogFileHelpers: Auto-saving content packages took 1.383
+[2016.08.03-19.31.40:280][694]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.08.03-19.31.40:287][694]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-19.31.40:297][694]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2016.08.03-19.31.40:450][694]LogPlayLevel: PIE:  Blueprint regeneration took 169 ms (1 blueprints)
+[2016.08.03-19.31.40:450][694]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 3, 2016, 11:31:40 AM)
+[2016.08.03-19.31.40:473][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022679s)
+[2016.08.03-19.31.40:474][694]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2016.08.03-19.31.40:474][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024011s)
+[2016.08.03-19.31.40:509][694]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-19.31.40:511][694]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.03-19.31.40:516][694]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.08.03-15.31.40
+[2016.08.03-19.31.40:517][694]LogWorld: Bringing up level for play took: 0.005415
+[2016.08.03-19.31.40:519][694]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.097
+[2016.08.03-19.31.45:457][864]LogBlueprintUserMessages: 75
+[2016.08.03-19.31.50:454][ 65]LogBlueprintUserMessages: 50
+[2016.08.03-19.31.55:463][267]LogBlueprintUserMessages: 25
+[2016.08.03-19.32.00:481][470]LogBlueprintUserMessages: 0
+[2016.08.03-19.32.00:509][471]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:531][472]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:557][473]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:583][474]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:608][475]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:633][476]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:656][477]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:681][478]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:706][479]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:731][480]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:754][481]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:779][482]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:804][483]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:829][484]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:852][485]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:877][486]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:903][487]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:928][488]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:951][489]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:976][490]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.00:998][491]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:027][492]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:049][493]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:075][494]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:101][495]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:127][496]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:153][497]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:175][498]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:197][499]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:225][500]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:251][501]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:273][502]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:298][503]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:323][504]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:349][505]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:371][506]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:396][507]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:422][508]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:447][509]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:469][510]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:495][511]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:520][512]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:543][513]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:567][514]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:593][515]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:618][516]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:641][517]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:666][518]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:692][519]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:714][520]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:742][521]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:763][522]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:786][523]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:815][524]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:838][525]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:863][526]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:888][527]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:913][528]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:939][529]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:961][530]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.01:986][531]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:012][532]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:037][533]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:059][534]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:085][535]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:110][536]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:135][537]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:157][538]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:182][539]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:208][540]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:230][541]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:255][542]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:280][543]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:305][544]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:330][545]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:352][546]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:377][547]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:402][548]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:427][549]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:450][550]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:475][551]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:497][552]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:525][553]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:547][554]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:572][555]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:597][556]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:622][557]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:644][558]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:669][559]LogBlueprintUserMessages: You Died!
+[2016.08.03-19.32.02:763][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-19.32.02:820][561]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C6FB600
+[2016.08.03-19.39.08:599][888]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-19.39.14:341][888]LogSavePackage: Save=5609.228516ms
+[2016.08.03-19.39.14:341][888]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonExampleMap_Auto2B075478440005506EB1F7E8ED7450126.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2016.08.03-19.39.14:348][888]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 5.750
+[2016.08.03-19.39.14:348][888]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.750
+[2016.08.03-19.39.14:388][888]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2016.08.03-19.39.14:432][888]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2016.08.03-19.39.14:432][888]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2016.08.03-19.39.15:701][888]LogSavePackage: Save=1258.393433ms
+[2016.08.03-19.39.15:702][888]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonCharacter_Auto27A9EAFC440862AFEB6BE1A84A9D4E018.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
+[2016.08.03-19.39.15:713][888]LogFileHelpers: Auto-saving content packages took 1.365
+[2016.08.03-19.49.16:512][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-19.49.16:564][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.052
+[2016.08.03-19.49.16:610][ 50]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2016.08.03-19.49.16:669][ 50]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2016.08.03-19.49.16:669][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2016.08.03-19.49.18:336][ 50]LogSavePackage: Save=1646.745972ms
+[2016.08.03-19.49.18:340][ 50]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonCharacter_Auto3E9F9226045B05D5E75921DA3A9F386F3.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2016.08.03-19.49.18:367][ 50]LogFileHelpers: Auto-saving content packages took 1.803
+[2016.08.03-19.50.53:560][572]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2016.08.03-19.51.24:157][654]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2016.08.03-19.51.30:048][916]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.03-19.51.40:644][981]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../Projects/Horror/FullPickup_Diffuse.png)
+[2016.08.03-19.51.40:738][981]0.000045 seconds to analyze Texture2D /Game/Textures/FullPickup_Diffuse.FullPickup_Diffuse
+
+[2016.08.03-19.51.40:740][981]LogTexture:Display: Building textures: FullPickup_Diffuse (AutoDXT)
+[2016.08.03-19.51.41:221][981]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../Projects/Horror/FullPickup_Emmisive.png)
+[2016.08.03-19.51.41:240][981]0.000026 seconds to analyze Texture2D /Game/Textures/FullPickup_Emmisive.FullPickup_Emmisive
+
+[2016.08.03-19.51.41:241][981]LogTexture:Display: Building textures: FullPickup_Emmisive (AutoDXT)
+[2016.08.03-19.51.41:337][981]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../Projects/Horror/MinorPickup_Diffuse.png)
+[2016.08.03-19.51.41:371][981]0.000038 seconds to analyze Texture2D /Game/Textures/MinorPickup_Diffuse.MinorPickup_Diffuse
+
+[2016.08.03-19.51.41:372][981]LogTexture:Display: Building textures: MinorPickup_Diffuse (AutoDXT)
+[2016.08.03-19.51.41:815][981]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../Projects/Horror/MinorPickup_Emmisive.png)
+[2016.08.03-19.51.41:831][981]0.000022 seconds to analyze Texture2D /Game/Textures/MinorPickup_Emmisive.MinorPickup_Emmisive
+
+[2016.08.03-19.51.41:833][981]LogTexture:Display: Building textures: MinorPickup_Emmisive (AutoDXT)
+[2016.08.03-19.51.41:920][981]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.08.03-19.51.41:921][981]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.03-19.51.41:922][981]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.03-19.51.41:923][981]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.03-19.51.41:924][981]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.03-19.51.58:694][709]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.03-19.52.02:316][867]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.52.04:910][953]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.03-19.52.06:090][996]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.52.28:488][540]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.52.28:545][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.08.03-19.52.28:655][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.08.03-19.52.28:655][540]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2016.08.03-19.52.28:661][540]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.52.28:673][540]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.52.28:700][540]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.03-19.52.30:738][639]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.08.03-19.52.30:738][639]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.03-19.52.30:739][639]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.08.03-19.53.02:128][115]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.03-19.53.04:672][226]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.53.04:682][226]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.53.04:683][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.03-19.53.04:714][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.03-19.53.04:718][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.03-19.53.06:526][309]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.08.03-19.53.06:526][309]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.03-19.53.06:526][309]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.08.03-19.53.18:451][841]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.53.18:464][841]LogMaterial: 0.000176 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.53.18:583][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.03-19.53.19:779][904]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.08.03-19.53.19:779][904]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.03-19.53.19:779][904]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.08.03-19.53.47:223][209]LogMaterialEditor: Saving and Compiling material MinorPickup_Diffuse_Mat
+[2016.08.03-19.53.50:420][209]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.53.50:463][209]LogMaterial: 0.000157 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.53.50:526][209]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.53.50:574][209]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.53.50:605][209]LogMaterial: 0.010273 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.53.54:252][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/MinorPickup_Diffuse_Mat" FILE="../../../../../Projects/Horror/SurvivalGame/Content/Textures/MinorPickup_Diffuse_Mat.uasset" SILENT=true
+[2016.08.03-19.53.54:549][209]LogSavePackage: Save=294.955597ms
+[2016.08.03-19.53.54:549][209]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorPickup_Diffuse_Mat805B0D52438CE58A915E4CBEF1BCD3CD.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/Textures/MinorPickup_Diffuse_Mat.uasset'
+[2016.08.03-19.53.54:554][209]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2016.08.03-19.53.54:555][209]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.03-19.53.54:555][209]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.08.03-19.53.56:748][341]LogMaterialEditor: Saving and Compiling material MinorPickup_Diffuse_Mat
+[2016.08.03-19.53.58:303][341]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.53.58:323][341]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.53.58:483][341]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.53.58:507][341]LogMaterial: Missing cached shader map for material MinorPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.53.58:520][341]LogMaterial: 0.002539 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.54.00:240][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/MinorPickup_Diffuse_Mat" FILE="../../../../../Projects/Horror/SurvivalGame/Content/Textures/MinorPickup_Diffuse_Mat.uasset" SILENT=true
+[2016.08.03-19.54.00:472][341]LogSavePackage: Save=225.407791ms
+[2016.08.03-19.54.00:472][341]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorPickup_Diffuse_Mat070FF84141FFBB88A122EF87F6C1EF70.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/Textures/MinorPickup_Diffuse_Mat.uasset'
+[2016.08.03-19.54.04:313][515]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.54.04:369][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2016.08.03-19.54.04:411][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2016.08.03-19.54.04:411][515]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2016.08.03-19.54.04:414][515]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.54.04:419][515]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.54.04:441][515]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.03-19.54.05:144][546]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.08.03-19.54.05:145][546]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.03-19.54.05:145][546]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.08.03-19.54.10:137][836]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.03-19.54.13:713][  7]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.54.13:718][  7]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.54.13:719][  7]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.03-19.54.13:742][  7]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.03-19.54.13:744][  7]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.03-19.54.14:458][ 36]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.08.03-19.54.14:458][ 36]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.03-19.54.14:458][ 36]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.08.03-19.54.23:534][573]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.54.23:540][573]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.54.23:565][573]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.03-19.54.24:249][613]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.08.03-19.54.24:249][613]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.03-19.54.24:249][613]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.08.03-19.54.26:731][762]LogMaterialEditor: Applying material FullPickup_Diffuse_Mat
+[2016.08.03-19.54.28:295][762]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.54.28:315][762]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.54.28:416][762]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.54.28:439][762]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.54.28:491][762]LogMaterial: 0.039866 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.54.30:291][870]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2016.08.03-19.54.30:291][870]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.03-19.54.30:291][870]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.08.03-19.54.30:572][887]LogMaterialEditor: Saving and Compiling material FullPickup_Diffuse_Mat
+[2016.08.03-19.54.32:152][887]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.54.32:172][887]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.54.32:213][887]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.54.32:236][887]LogMaterial: Missing cached shader map for material FullPickup_Diffuse_Mat, compiling. 
+[2016.08.03-19.54.32:249][887]LogMaterial: 0.003539 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.03-19.54.34:102][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FullPickup_Diffuse_Mat" FILE="../../../../../Projects/Horror/SurvivalGame/Content/Textures/FullPickup_Diffuse_Mat.uasset" SILENT=true
+[2016.08.03-19.54.34:307][887]LogSavePackage: Save=203.089539ms
+[2016.08.03-19.54.34:307][887]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/FullPickup_Diffuse_MatEEF5B7574AC5E7411274278C396E72F2.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/Textures/FullPickup_Diffuse_Mat.uasset'
+[2016.08.03-19.54.51:067][222]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2016.08.03-19.54.59:520][320]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2016.08.03-19.55.24:118][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-19.55.42:349][802]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.08.03-19.55.42:349][802]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Engine/BasicShapes'
+[2016.08.03-19.55.56:328][226]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.08.03-19.55.56:328][226]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Engine/BasicShapes'
+[2016.08.03-19.56.00:900][328]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.03-19.56.25:294][942]LogRenderer:Warning: Reallocating scene render targets to support 1208x896 (Frame:20588).
+[2016.08.03-19.59.24:098][818]LogSavePackage: Save=4541.604980ms
+[2016.08.03-19.59.24:098][818]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonExampleMap_Auto450D4D575499BDF236912F08D319E1B41.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2016.08.03-19.59.24:104][818]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 4.693
+[2016.08.03-19.59.24:104][818]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.693
+[2016.08.03-19.59.24:143][818]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/FullPickup_Diffuse] ([1] browsable assets)...
+[2016.08.03-19.59.24:161][818]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/FullPickup_Diffuse.FullPickup_Diffuse]
+[2016.08.03-19.59.24:161][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/FullPickup_Diffuse]
+[2016.08.03-19.59.24:939][818]LogSavePackage: Save=775.578308ms
+[2016.08.03-19.59.24:940][818]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/FullPickup_Diffuse_Auto4B42E70FB4B423581B12AD88184B5BC96.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/Textures/FullPickup_Diffuse_Auto4.uasset'
+[2016.08.03-19.59.24:979][818]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/FullPickup_Emmisive] ([1] browsable assets)...
+[2016.08.03-19.59.25:006][818]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/FullPickup_Emmisive.FullPickup_Emmisive]
+[2016.08.03-19.59.25:006][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/FullPickup_Emmisive]
+[2016.08.03-19.59.25:184][818]LogSavePackage: Save=140.837326ms
+[2016.08.03-19.59.25:185][818]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/FullPickup_Emmisive_Auto4276496314656ECF65E8051B1D5E00066.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/Textures/FullPickup_Emmisive_Auto4.uasset'
+[2016.08.03-19.59.25:222][818]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/MinorPickup_Diffuse] ([1] browsable assets)...
+[2016.08.03-19.59.25:239][818]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/MinorPickup_Diffuse.MinorPickup_Diffuse]
+[2016.08.03-19.59.25:239][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/MinorPickup_Diffuse]
+[2016.08.03-19.59.25:988][818]LogSavePackage: Save=747.216980ms
+[2016.08.03-19.59.25:989][818]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorPickup_Diffuse_Auto4558538D449A5432563C92B859AEE14DA.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/Textures/MinorPickup_Diffuse_Auto4.uasset'
+[2016.08.03-19.59.26:028][818]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/MinorPickup_Emmisive] ([1] browsable assets)...
+[2016.08.03-19.59.26:039][818]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/MinorPickup_Emmisive.MinorPickup_Emmisive]
+[2016.08.03-19.59.26:039][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/MinorPickup_Emmisive]
+[2016.08.03-19.59.26:213][818]LogSavePackage: Save=171.463760ms
+[2016.08.03-19.59.26:213][818]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorPickup_Emmisive_Auto4BD6EA78C4F0998AD140AF483553364FB.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/Textures/MinorPickup_Emmisive_Auto4.uasset'
+[2016.08.03-19.59.26:253][818]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/MinorHungerPickup] ([1] browsable assets)...
+[2016.08.03-19.59.26:300][818]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/MinorHungerPickup.MinorHungerPickup]
+[2016.08.03-19.59.26:300][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/MinorHungerPickup]
+[2016.08.03-19.59.26:626][818]LogSavePackage: Save=322.721283ms
+[2016.08.03-19.59.26:626][818]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorHungerPickup_Auto4C438A8B442FEC9E94935F0BA62C427F4.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MinorHungerPickup_Auto4.uasset'
+[2016.08.03-19.59.26:634][818]LogFileHelpers: Auto-saving content packages took 2.529
+[2016.08.03-20.08.10:983][801]BlueprintLog: New page: Compile MinorHungerPickup
+[2016.08.03-20.08.11:126][801]BlueprintEditorCompileResults: Info [3028.21] Compile of MinorHungerPickup successful! [in 142 ms]
+[2016.08.03-20.08.34:523][269]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2016.08.03-20.08.36:336][302]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.36:336][302]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.36:336][302]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.36:337][302]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.37:445][351]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.37:445][351]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.37:446][351]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.37:446][351]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.40:698][476]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.40:698][476]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.40:699][476]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.40:699][476]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.41:561][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.41:561][514]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.41:561][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.41:561][514]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MinorHungerPickup'
+[2016.08.03-20.08.50:005][826]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.08.03-20.08.50:012][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.08.50:021][826]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2016.08.03-20.08.50:164][826]LogPlayLevel: [PIE] Compiling MinorHungerPickup before PIE...
+[2016.08.03-20.08.50:247][826]LogPlayLevel: PIE:  Blueprint regeneration took 242 ms (2 blueprints)
+[2016.08.03-20.08.50:247][826]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 3, 2016, 12:08:50 PM)
+[2016.08.03-20.08.50:271][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022890s)
+[2016.08.03-20.08.50:272][826]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2016.08.03-20.08.50:272][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024214s)
+[2016.08.03-20.08.50:302][826]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-20.08.50:304][826]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.03-20.08.50:310][826]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.08.03-16.08.50
+[2016.08.03-20.08.50:337][826]LogWorld: Bringing up level for play took: 0.032000
+[2016.08.03-20.08.50:339][826]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.173
+[2016.08.03-20.08.54:948][ 59]LogBlueprintUserMessages: 75
+[2016.08.03-20.08.59:950][330]LogBlueprintUserMessages: 50
+[2016.08.03-20.09.03:509][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.09.03:563][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027C46FC0
+[2016.08.03-20.09.37:789][ 30]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.09.49:531][531]LogSavePackage: Save=2764.123291ms
+[2016.08.03-20.09.49:531][531]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonExampleMap_Auto535D2450A4EB84151859B8598A3717ED0.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2016.08.03-20.09.49:538][531]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 3.158
+[2016.08.03-20.09.49:538][531]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.158
+[2016.08.03-20.09.49:571][531]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2016.08.03-20.09.49:614][531]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2016.08.03-20.09.49:614][531]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2016.08.03-20.09.50:130][531]LogSavePackage: Save=508.479034ms
+[2016.08.03-20.09.50:131][531]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonCharacter_Auto5B371C58A44F7950F825A08AE53C1A727.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
+[2016.08.03-20.09.50:169][531]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/MinorHungerPickup] ([1] browsable assets)...
+[2016.08.03-20.09.50:213][531]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/MinorHungerPickup.MinorHungerPickup]
+[2016.08.03-20.09.50:213][531]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/MinorHungerPickup]
+[2016.08.03-20.09.50:596][531]LogSavePackage: Save=380.812775ms
+[2016.08.03-20.09.50:597][531]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorHungerPickup_Auto5CBD0767B46693B232B3D009E8DC0BA92.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MinorHungerPickup_Auto5.uasset'
+[2016.08.03-20.09.50:602][531]LogFileHelpers: Auto-saving content packages took 1.064
+[2016.08.03-20.10.06:677][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.10.50:448][442]BlueprintLog: New page: Compile MinorHungerPickup
+[2016.08.03-20.10.50:616][442]BlueprintEditorCompileResults: Info [3187.70] Compile of MinorHungerPickup successful! [in 168 ms]
+[2016.08.03-20.12.10:702][ 72]BlueprintLog: New page: Compile MinorHungerPickup
+[2016.08.03-20.12.10:899][ 72]BlueprintEditorCompileResults: Info [3267.98] Compile of MinorHungerPickup successful! [in 196 ms]
+[2016.08.03-20.12.17:733][296]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.08.03-20.12.17:733][296]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 3, 2016, 12:12:17 PM)
+[2016.08.03-20.12.17:773][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039881s)
+[2016.08.03-20.12.17:775][296]LogPlayLevel: PIE: World Init took: (0.001814s)
+[2016.08.03-20.12.17:776][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.042181s)
+[2016.08.03-20.12.17:814][296]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-20.12.17:817][296]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.03-20.12.17:828][296]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.08.03-16.12.17
+[2016.08.03-20.12.17:829][296]LogWorld: Bringing up level for play took: 0.010715
+[2016.08.03-20.12.17:831][296]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.69
+[2016.08.03-20.12.20:919][471]LogBlueprintUserMessages: 100
+[2016.08.03-20.12.22:680][571]LogBlueprintUserMessages: 75
+[2016.08.03-20.12.27:502][844]LogBlueprintUserMessages: 100
+[2016.08.03-20.12.27:695][855]LogBlueprintUserMessages: 75
+[2016.08.03-20.12.31:699][ 83]LogBlueprintUserMessages: 100
+[2016.08.03-20.12.32:702][140]LogBlueprintUserMessages: 75
+[2016.08.03-20.12.34:782][255]LogBlueprintUserMessages: 100
+[2016.08.03-20.12.37:711][423]LogBlueprintUserMessages: 75
+[2016.08.03-20.12.42:718][709]LogBlueprintUserMessages: 75
+[2016.08.03-20.12.47:719][993]LogBlueprintUserMessages: 75
+[2016.08.03-20.12.52:731][280]LogBlueprintUserMessages: 50
+[2016.08.03-20.12.57:744][566]LogBlueprintUserMessages: 75
+[2016.08.03-20.12.58:678][619]LogBlueprintUserMessages: 100
+[2016.08.03-20.13.01:010][748]LogBlueprintUserMessages: 100
+[2016.08.03-20.13.02:747][846]LogBlueprintUserMessages: 75
+[2016.08.03-20.13.05:168][983]LogBlueprintUserMessages: 100
+[2016.08.03-20.13.07:750][132]LogBlueprintUserMessages: 75
+[2016.08.03-20.13.09:554][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022229620
+[2016.08.03-20.20.45:585][786]LogSavePackage: Save=2880.072266ms
+[2016.08.03-20.20.45:585][786]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonExampleMap_Auto6901290BB43DA094DB849419E32F1A894.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2016.08.03-20.20.45:593][786]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 2.984
+[2016.08.03-20.20.45:593][786]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.984
+[2016.08.03-20.20.45:627][786]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/MinorHungerPickup] ([1] browsable assets)...
+[2016.08.03-20.20.45:680][786]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/MinorHungerPickup.MinorHungerPickup]
+[2016.08.03-20.20.45:680][786]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/MinorHungerPickup]
+[2016.08.03-20.20.46:066][786]LogSavePackage: Save=383.845856ms
+[2016.08.03-20.20.46:067][786]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorHungerPickup_Auto610CD4F294CDEC47DB6A9D898F674AB1E.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MinorHungerPickup_Auto6.uasset'
+[2016.08.03-20.20.46:072][786]LogFileHelpers: Auto-saving content packages took 0.478
+[2016.08.03-20.21.39:373][ 88]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.08.03-20.21.39:373][ 88]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 3, 2016, 12:21:39 PM)
+[2016.08.03-20.21.39:422][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047437s)
+[2016.08.03-20.21.39:425][ 88]LogPlayLevel: PIE: World Init took: (0.003200s)
+[2016.08.03-20.21.39:425][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.051047s)
+[2016.08.03-20.21.39:461][ 88]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-20.21.39:467][ 88]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.03-20.21.39:485][ 88]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.08.03-16.21.39
+[2016.08.03-20.21.39:487][ 88]LogWorld: Bringing up level for play took: 0.018842
+[2016.08.03-20.21.39:490][ 88]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.946
+[2016.08.03-20.21.44:323][341]LogBlueprintUserMessages: 75
+[2016.08.03-20.21.49:333][612]LogBlueprintUserMessages: 75
+[2016.08.03-20.21.54:338][879]LogBlueprintUserMessages: 75
+[2016.08.03-20.21.59:343][149]LogBlueprintUserMessages: 75
+[2016.08.03-20.22.04:347][351]LogBlueprintUserMessages: 50
+[2016.08.03-20.22.09:357][633]LogBlueprintUserMessages: 25
+[2016.08.03-20.22.14:362][910]LogBlueprintUserMessages: 0
+[2016.08.03-20.22.14:379][911]LogBlueprintUserMessages: You Died!
+[2016.08.03-20.22.17:061][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.22.17:104][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000546DCF40
+[2016.08.03-20.24.25:759][710]BlueprintLog: New page: Compile MinorHungerPickup
+[2016.08.03-20.24.25:955][710]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005EA5A020
+[2016.08.03-20.24.25:956][710]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000557DCEA0
+[2016.08.03-20.24.25:977][710]BlueprintEditorCompileResults: Info [4003.02] Compile of MinorHungerPickup successful! [in 217 ms]
+[2016.08.03-20.24.43:204][534]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.08.03-20.24.43:204][534]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 3, 2016, 12:24:43 PM)
+[2016.08.03-20.24.43:243][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038086s)
+[2016.08.03-20.24.43:244][534]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2016.08.03-20.24.43:244][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.039579s)
+[2016.08.03-20.24.43:285][534]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-20.24.43:289][534]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.03-20.24.43:301][534]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.08.03-16.24.43
+[2016.08.03-20.24.43:303][534]LogWorld: Bringing up level for play took: 0.012816
+[2016.08.03-20.24.43:307][534]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.755
+[2016.08.03-20.24.46:907][740]LogBlueprintUserMessages: 100
+[2016.08.03-20.24.47:595][779]LogBlueprintUserMessages: 100
+[2016.08.03-20.24.48:150][810]LogBlueprintUserMessages: 75
+[2016.08.03-20.24.48:454][827]LogBlueprintUserMessages: 100
+[2016.08.03-20.24.53:155][ 92]LogBlueprintUserMessages: 75
+[2016.08.03-20.24.56:056][257]LogBlueprintUserMessages: 100
+[2016.08.03-20.24.58:166][379]LogBlueprintUserMessages: 75
+[2016.08.03-20.24.59:352][448]LogBlueprintUserMessages: 100
+[2016.08.03-20.25.00:787][531]LogBlueprintUserMessages: 100
+[2016.08.03-20.25.02:100][607]LogBlueprintUserMessages: 100
+[2016.08.03-20.25.03:181][670]LogBlueprintUserMessages: 75
+[2016.08.03-20.25.04:213][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000556D23E0
+[2016.08.03-20.31.45:036][988]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.31.50:955][988]LogSavePackage: Save=5471.649414ms
+[2016.08.03-20.31.50:955][988]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonExampleMap_Auto74BD27C2A4450D118D242A9B4B58370FF.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap'
+[2016.08.03-20.31.50:968][988]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 5.931
+[2016.08.03-20.31.50:968][988]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.931
+[2016.08.03-20.31.51:011][988]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/MinorHungerPickup] ([1] browsable assets)...
+[2016.08.03-20.31.51:060][988]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/MinorHungerPickup.MinorHungerPickup]
+[2016.08.03-20.31.51:060][988]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/MinorHungerPickup]
+[2016.08.03-20.31.51:624][988]LogSavePackage: Save=559.954834ms
+[2016.08.03-20.31.51:626][988]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorHungerPickup_Auto70AF21F054F8F9C7A183EBA97EBDEA7CE.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MinorHungerPickup_Auto7.uasset'
+[2016.08.03-20.31.51:677][988]LogFileHelpers: Auto-saving content packages took 0.709
+[2016.08.03-20.37.34:215][170]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.37.49:433][839]BlueprintLog: New page: Compile MajorHungerPickup
+[2016.08.03-20.37.49:538][839]BlueprintEditorCompileResults: Info [4806.55] Compile of MajorHungerPickup successful! [in 104 ms]
+[2016.08.03-20.37.52:080][962]BlueprintLog: New page: Compile MajorHungerPickup
+[2016.08.03-20.37.52:162][962]BlueprintEditorCompileResults: Info [4809.18] Compile of MajorHungerPickup successful! [in 81 ms]
+[2016.08.03-20.37.59:610][221]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MajorHungerPickup'
+[2016.08.03-20.37.59:610][221]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MajorHungerPickup'
+[2016.08.03-20.37.59:611][221]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MajorHungerPickup'
+[2016.08.03-20.37.59:611][221]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MajorHungerPickup'
+[2016.08.03-20.38.02:268][307]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MajorHungerPickup'
+[2016.08.03-20.38.02:268][307]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MajorHungerPickup'
+[2016.08.03-20.38.02:268][307]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/MajorHungerPickup'
+[2016.08.03-20.38.02:268][307]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/MajorHungerPickup'
+[2016.08.03-20.38.08:825][520]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.08.03-20.38.08:826][520]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 3, 2016, 12:38:08 PM)
+[2016.08.03-20.38.08:865][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024453s)
+[2016.08.03-20.38.08:867][520]LogPlayLevel: PIE: World Init took: (0.001301s)
+[2016.08.03-20.38.08:867][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026000s)
+[2016.08.03-20.38.08:895][520]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-20.38.08:897][520]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.03-20.38.08:903][520]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.08.03-16.38.08
+[2016.08.03-20.38.08:904][520]LogWorld: Bringing up level for play took: 0.006629
+[2016.08.03-20.38.08:906][520]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.321
+[2016.08.03-20.38.13:803][717]LogBlueprintUserMessages: 75
+[2016.08.03-20.38.18:804][917]LogBlueprintUserMessages: 50
+[2016.08.03-20.38.23:817][118]LogBlueprintUserMessages: 25
+[2016.08.03-20.38.25:301][177]LogBlueprintUserMessages: 75
+[2016.08.03-20.38.28:827][317]LogBlueprintUserMessages: 50
+[2016.08.03-20.38.29:682][351]LogBlueprintUserMessages: 75
+[2016.08.03-20.38.33:851][518]LogBlueprintUserMessages: 50
+[2016.08.03-20.38.34:776][555]LogBlueprintUserMessages: 100
+[2016.08.03-20.38.37:192][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.38.37:216][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000106239C0
+[2016.08.03-20.42.21:091][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.42.26:905][359]LogSavePackage: Save=5641.159668ms
+[2016.08.03-20.42.26:905][359]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonExampleMap_Auto88199B6CE473A4D72A927A48F9FF74617.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap'
+[2016.08.03-20.42.26:914][359]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 5.823
+[2016.08.03-20.42.26:914][359]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.823
+[2016.08.03-20.42.26:955][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/MajorHungerPickup] ([1] browsable assets)...
+[2016.08.03-20.42.27:007][359]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/MajorHungerPickup.MajorHungerPickup]
+[2016.08.03-20.42.27:007][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/MajorHungerPickup]
+[2016.08.03-20.42.27:875][359]LogSavePackage: Save=864.318909ms
+[2016.08.03-20.42.27:877][359]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MajorHungerPickup_Auto8C50608344B8A89E78D344FA9CC956FA0.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MajorHungerPickup_Auto8.uasset'
+[2016.08.03-20.42.27:889][359]LogFileHelpers: Auto-saving content packages took 0.976
+[2016.08.03-20.44.39:393][450]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2016.08.03-20.46.16:015][611]BlueprintLog: New page: Compile MajorHungerPickup
+[2016.08.03-20.46.16:153][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.46.16:216][611]BlueprintEditorCompileResults: Info [5313.21] Compile of MajorHungerPickup successful! [in 200 ms]
+[2016.08.03-20.46.34:789][538]BlueprintLog: New page: Compile MinorHungerPickup
+[2016.08.03-20.46.34:935][538]BlueprintEditorCompileResults: Info [5331.93] Compile of MinorHungerPickup successful! [in 144 ms]
+[2016.08.03-20.47.49:913][523]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.03-20.47.59:719][866]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.08.03-20.48.00:397][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.48.00:495][866]BlueprintEditorCompileResults: Info [5417.48] Compile of ThirdPersonCharacter successful! [in 775 ms]
+[2016.08.03-20.49.50:189][308]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2016.08.03-20.50.15:323][ 49]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.50.18:533][ 49]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_SurvivalHUD_C_0' or package '/Engine/Transient'.
+[2016.08.03-20.50.18:533][ 49]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_SurvivalHUD_C_1' or package '/Engine/Transient'.
+[2016.08.03-20.50.18:533][ 49]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_SurvivalHUD_C_174' or package '/Engine/Transient'.
+[2016.08.03-20.50.18:533][ 49]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SurvivalHUD_C_173' or package '/Engine/Transient'.
+[2016.08.03-20.50.18:662][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024A63C40
+[2016.08.03-20.50.18:663][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B8651C0
+[2016.08.03-20.50.18:663][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005632C540
+[2016.08.03-20.50.18:664][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000061880360
+[2016.08.03-20.50.18:664][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000267622A0
+[2016.08.03-20.52.32:844][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.52.32:883][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006A539A80
+[2016.08.03-20.52.32:884][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F12D1C0
+[2016.08.03-20.52.37:569][684]LogSavePackage: Save=4564.384277ms
+[2016.08.03-20.52.37:569][684]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonExampleMap_Auto983DADDA2430E4391F14C84AEDC865450.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto9.umap'
+[2016.08.03-20.52.37:576][684]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 4.731
+[2016.08.03-20.52.37:576][684]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.731
+[2016.08.03-20.52.37:605][684]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2016.08.03-20.52.37:656][684]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2016.08.03-20.52.37:656][684]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2016.08.03-20.52.38:194][684]LogSavePackage: Save=497.760773ms
+[2016.08.03-20.52.38:194][684]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonCharacter_Auto9E1041F994CFC6649EDCAA7B6089D32D2.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto9.uasset'
+[2016.08.03-20.52.38:232][684]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/MinorHungerPickup] ([1] browsable assets)...
+[2016.08.03-20.52.38:262][684]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/MinorHungerPickup.MinorHungerPickup]
+[2016.08.03-20.52.38:262][684]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/MinorHungerPickup]
+[2016.08.03-20.52.38:638][684]LogSavePackage: Save=373.511627ms
+[2016.08.03-20.52.38:639][684]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorHungerPickup_Auto9C565CF084EE8E1414483C08FB2F5975F.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MinorHungerPickup_Auto9.uasset'
+[2016.08.03-20.52.38:674][684]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/MajorHungerPickup] ([1] browsable assets)...
+[2016.08.03-20.52.38:711][684]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/MajorHungerPickup.MajorHungerPickup]
+[2016.08.03-20.52.38:711][684]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/MajorHungerPickup]
+[2016.08.03-20.52.39:083][684]LogSavePackage: Save=368.645752ms
+[2016.08.03-20.52.39:083][684]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MajorHungerPickup_Auto9694FF2E649F11C2B90C55DB9E64433DD.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MajorHungerPickup_Auto9.uasset'
+[2016.08.03-20.52.39:120][684]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/SurvivalHUDWidget] ([1] browsable assets)...
+[2016.08.03-20.52.39:120][684]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/SurvivalHUDWidget]
+[2016.08.03-20.52.39:203][684]LogSavePackage: Save=64.931679ms
+[2016.08.03-20.52.39:204][684]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/SurvivalHUDWidget_Auto921E25625464B27638DEB0DB297EC85C0.tmp' to '../../../../../Projects/Horror/SurvivalGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/SurvivalHUDWidget_Auto9.uasset'
+[2016.08.03-20.52.39:209][684]LogFileHelpers: Auto-saving content packages took 1.634
+[2016.08.03-20.53.09:499][826]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2016.08.03-20.53.13:022][928]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.53.28:097][ 24]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2016.08.03-20.54.02:311][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.54.02:384][538]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000056024180
+[2016.08.03-20.57.24:715][696]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2016.08.03-20.57.29:389][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.57.38:288][893]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/UserGuide/Types/ClassBlueprint/index.html?utm_source=editor&utm_medium=docs&utm_campaign=cb_docs
+[2016.08.03-20.58.01:631][177]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.08.03-20.58.01:634][177]LogPlayLevel: [PIE] Compiling MinorHungerPickup before PIE...
+[2016.08.03-20.58.01:699][177]LogPlayLevel: [PIE] Compiling MajorHungerPickup before PIE...
+[2016.08.03-20.58.01:768][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-20.58.01:790][177]LogPlayLevel: PIE:  Blueprint regeneration took 159 ms (2 blueprints)
+[2016.08.03-20.58.01:790][177]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 3, 2016, 12:58:01 PM)
+[2016.08.03-20.58.01:814][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022893s)
+[2016.08.03-20.58.01:815][177]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2016.08.03-20.58.01:815][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024233s)
+[2016.08.03-20.58.01:855][177]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-20.58.01:857][177]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.03-20.58.01:863][177]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.08.03-16.58.01
+[2016.08.03-20.58.01:864][177]LogWorld: Bringing up level for play took: 0.006274
+[2016.08.03-20.58.01:865][177]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.231
+[2016.08.03-20.58.06:737][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006A078220
+[2016.08.03-21.01.14:937][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-21.01.14:974][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017759F80
+[2016.08.03-21.01.19:927][182]LogSavePackage: Save=4903.464355ms
+[2016.08.03-21.01.19:929][182]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonExampleMap0ACE9E84403FB8484E6F5084985E940F.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.08.03-21.01.24:470][276]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-21.01.27:906][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.03-21.01.30:625][325]LogSavePackage: Save=2696.231934ms
+[2016.08.03-21.01.30:625][325]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonExampleMapB67EF9694E7DED0C9BA3CC98063F9B70.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.08.03-21.01.35:561][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FullPickup_Diffuse" FILE="../../../../../Projects/Horror/SurvivalGame/Content/Textures/FullPickup_Diffuse.uasset" SILENT=true
+[2016.08.03-21.01.35:726][381]LogSavePackage: Save=164.039886ms
+[2016.08.03-21.01.35:726][381]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/FullPickup_Diffuse98D2296B4BE7707A51A76DA2DC3436DD.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/Textures/FullPickup_Diffuse.uasset'
+[2016.08.03-21.01.35:745][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FullPickup_Emmisive" FILE="../../../../../Projects/Horror/SurvivalGame/Content/Textures/FullPickup_Emmisive.uasset" SILENT=true
+[2016.08.03-21.01.35:783][381]LogSavePackage: Save=37.058243ms
+[2016.08.03-21.01.35:784][381]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/FullPickup_Emmisive50F958A94DA1B86E27320F9FD560C325.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/Textures/FullPickup_Emmisive.uasset'
+[2016.08.03-21.01.35:805][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/MinorPickup_Diffuse" FILE="../../../../../Projects/Horror/SurvivalGame/Content/Textures/MinorPickup_Diffuse.uasset" SILENT=true
+[2016.08.03-21.01.36:008][381]LogSavePackage: Save=165.569901ms
+[2016.08.03-21.01.36:008][381]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorPickup_Diffuse70A1C38849B9297B06035CB5F7B9CC8B.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/Textures/MinorPickup_Diffuse.uasset'
+[2016.08.03-21.01.36:033][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/MinorPickup_Emmisive" FILE="../../../../../Projects/Horror/SurvivalGame/Content/Textures/MinorPickup_Emmisive.uasset" SILENT=true
+[2016.08.03-21.01.36:070][381]LogSavePackage: Save=35.834827ms
+[2016.08.03-21.01.36:070][381]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorPickup_Emmisive0D6996D949091D9A3D8DD9A984169DD2.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/Textures/MinorPickup_Emmisive.uasset'
+[2016.08.03-21.01.36:106][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MajorHungerPickup" FILE="../../../../../Projects/Horror/SurvivalGame/Content/ThirdPersonBP/Blueprints/MajorHungerPickup.uasset" SILENT=true
+[2016.08.03-21.01.36:392][381]LogSavePackage: Save=283.735748ms
+[2016.08.03-21.01.36:392][381]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MajorHungerPickup964F116840E148DB1A81EB9281D87936.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/ThirdPersonBP/Blueprints/MajorHungerPickup.uasset'
+[2016.08.03-21.01.36:438][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MinorHungerPickup" FILE="../../../../../Projects/Horror/SurvivalGame/Content/ThirdPersonBP/Blueprints/MinorHungerPickup.uasset" SILENT=true
+[2016.08.03-21.01.36:734][381]LogSavePackage: Save=294.537384ms
+[2016.08.03-21.01.36:734][381]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/MinorHungerPickup910878CF43802CF85F7143834FE2AAE2.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/ThirdPersonBP/Blueprints/MinorHungerPickup.uasset'
+[2016.08.03-21.01.36:890][381]LogSavePackage: Save=139.288483ms
+[2016.08.03-21.01.36:890][381]LogSavePackage: Moving '../../../../../Projects/Horror/SurvivalGame/Saved/ThirdPersonCharacter60DBB58F4A6C653D6AB0D097F813E8F9.tmp' to '../../../../../Projects/Horror/SurvivalGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.08.03-21.01.37:442][382]Cmd: QUIT_EDITOR
+[2016.08.03-21.01.37:692][382]LogExit: Preparing to exit.
+[2016.08.03-21.01.38:189][382]LogExit: Editor shut down
+[2016.08.03-21.01.38:189][382]LogExit: Transaction tracking system shut down
+[2016.08.03-21.01.38:190][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B2CF600
+[2016.08.03-21.01.38:191][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D9C9EE0
+[2016.08.03-21.01.38:191][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CAE25C0
+[2016.08.03-21.01.38:191][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B8676A0
+[2016.08.03-21.01.38:191][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000140D85E0
+[2016.08.03-21.01.38:311][382]LogExit: Object subsystem successfully closed.
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2016.08.03-21.01.38:352][382]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2016.08.03-21.01.38:522][382]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2016.08.03-21.01.38:523][382]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2016.08.03-21.01.38:641][382]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2016.08.03-21.01.38:641][382]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2016.08.03-21.01.38:641][382]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2016.08.03-21.01.38:642][382]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2016.08.03-21.01.38:783][382]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2016.08.03-21.01.38:784][382]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2016.08.03-21.01.38:784][382]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2016.08.03-21.01.38:784][382]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2016.08.03-21.01.38:884][382]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2016.08.03-21.01.38:884][382]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module Media (76)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2016.08.03-21.01.38:886][382]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2016.08.03-21.01.38:889][382]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2016.08.03-21.01.38:889][382]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2016.08.03-21.01.38:889][382]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2016.08.03-21.01.38:890][382]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2016.08.03-21.01.38:890][382]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2016.08.03-21.01.38:890][382]LogModuleManager: Shutting down and abandoning module Core (55)
+[2016.08.03-21.01.38:890][382]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2016.08.03-21.01.38:890][382]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2016.08.03-21.01.38:890][382]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2016.08.03-21.01.38:890][382]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2016.08.03-21.01.38:897][382]LogDerivedDataCache: Shutdown
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.08.03-21.01.38:897][382]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.08.03-21.01.38:899][382]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.08.03-21.01.38:899][382]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.08.03-21.01.38:899][382]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.03-21.01.38:899][382]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.03-21.01.38:899][382]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.03-21.01.38:899][382]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.03-21.01.38:899][382]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.03-21.01.38:899][382]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.03-21.01.38:899][382]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.03-21.01.38:900][382]LogExit: Exiting.
+[2016.08.03-21.01.38:918][382]Log file closed, 08/03/16 17:01:38
